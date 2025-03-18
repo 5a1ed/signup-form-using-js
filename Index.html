@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="signup">
+        <header>Signup</header>
+        <form>
+          <input type="text" placeholder="username" class="fullName"/>
+          <input type="email" placeholder="E-mail" class="email" required/>
+          <input type="password" placeholder="password" class="password" required/>
+
+          <label class="container">
+            <input checked="checked" id="terms" type="checkbox"> 
+
+            <div class="checkmark"></div>
+            <label for="terms">I accept all terms & conditions</label>
+          </label>
+          <button id="btnsubmit">signup</button>
+        </form>
+      </div>
+      <div class="login wrapper">
+        <header>Login</header>
+        <form>
+          <input type="email" class="email_login" placeholder="email" required>
+          <input type="password" class="password_login" placeholder="password" required>
+          <p>Forgot Password ?</p>
+          <button type="button" id="btnlogin">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
